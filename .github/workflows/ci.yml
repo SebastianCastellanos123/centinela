@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+      - run: go vet ./...
+      - run: go test ./... -race -count=1 -cover
+      - name: Vulnerabilidades
+        run: go run golang.org/x/vuln/cmd/govulncheck@latest ./...
+      - name: Analizar el log de ejemplo (debe terminar con código 2: hay alertas críticas)
+        run: |
+          go build -o centinela ./cmd/centinela
+          set +e
+          ./centinela -year 2026 -tz UTC -fail-on critical testdata/auth.log
+          test $? -eq 2
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t centinela .
+      - run: docker compose -f lab/docker-compose.yml build

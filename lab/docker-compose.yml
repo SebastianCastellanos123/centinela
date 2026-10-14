@@ -1,0 +1,29 @@
+# Laboratorio: un servidor SSH vulnerable a propósito + un atacante + Centinela.
+# La red es interna: nada de esto es accesible desde fuera de tu computador.
+services:
+  target:
+    build: ./target
+    hostname: servidor-lab
+    volumes:
+      - authlog:/var/log/ssh-lab
+    networks: [lab]
+
+  attacker:
+    build: ./attacker
+    depends_on: [target]
+    networks: [lab]
+
+  centinela:
+    build:
+      context: ..
+    profiles: ["tools"]        # solo se ejecuta cuando tú lo pides
+    volumes:
+      - authlog:/var/log/ssh-lab:ro
+    networks: [lab]
+
+volumes:
+  authlog:
+
+networks:
+  lab:
+    internal: true             # sin acceso a Internet ni a tu red local

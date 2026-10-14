@@ -1,0 +1,164 @@
+Oct 12 00:00:05 srv-web01 sshd[812]: Server listening on 0.0.0.0 port 22.
+Oct 12 00:17:01 srv-web01 CRON[5652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:17:02 srv-web01 CRON[4235]: pam_unix(cron:session): session closed for user root
+Oct 12 01:17:01 srv-web01 CRON[6234]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 01:17:02 srv-web01 CRON[8332]: pam_unix(cron:session): session closed for user root
+Oct 12 02:17:01 srv-web01 CRON[3395]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 02:17:02 srv-web01 CRON[3593]: pam_unix(cron:session): session closed for user root
+Oct 12 03:12:00 srv-web01 sshd[2144]: Failed password for root from 203.0.113.50 port 43497 ssh2
+Oct 12 03:12:02 srv-web01 sshd[2176]: Failed password for root from 203.0.113.50 port 64846 ssh2
+Oct 12 03:12:04 srv-web01 sshd[2204]: Failed password for root from 203.0.113.50 port 50587 ssh2
+Oct 12 03:12:06 srv-web01 sshd[2234]: Failed password for root from 203.0.113.50 port 59699 ssh2
+Oct 12 03:12:08 srv-web01 sshd[2258]: Failed password for root from 203.0.113.50 port 49645 ssh2
+Oct 12 03:12:10 srv-web01 sshd[2274]: Failed password for root from 203.0.113.50 port 41781 ssh2
+Oct 12 03:12:12 srv-web01 sshd[2290]: Failed password for root from 203.0.113.50 port 35364 ssh2
+Oct 12 03:12:14 srv-web01 sshd[2327]: Failed password for root from 203.0.113.50 port 49677 ssh2
+Oct 12 03:12:16 srv-web01 sshd[2361]: Failed password for root from 203.0.113.50 port 62447 ssh2
+Oct 12 03:12:18 srv-web01 sshd[2383]: Failed password for root from 203.0.113.50 port 59414 ssh2
+Oct 12 03:12:20 srv-web01 sshd[2402]: Failed password for root from 203.0.113.50 port 34797 ssh2
+Oct 12 03:12:22 srv-web01 sshd[2410]: Failed password for root from 203.0.113.50 port 63550 ssh2
+Oct 12 03:12:24 srv-web01 sshd[2437]: Failed password for root from 203.0.113.50 port 40810 ssh2
+Oct 12 03:12:26 srv-web01 sshd[2459]: Failed password for root from 203.0.113.50 port 39960 ssh2
+Oct 12 03:12:28 srv-web01 sshd[2491]: Failed password for root from 203.0.113.50 port 57636 ssh2
+Oct 12 03:12:30 srv-web01 sshd[2494]: Failed password for root from 203.0.113.50 port 35086 ssh2
+Oct 12 03:12:32 srv-web01 sshd[2530]: Failed password for root from 203.0.113.50 port 50561 ssh2
+Oct 12 03:12:34 srv-web01 sshd[2552]: Failed password for root from 203.0.113.50 port 52949 ssh2
+Oct 12 03:12:36 srv-web01 sshd[2591]: Failed password for root from 203.0.113.50 port 62550 ssh2
+Oct 12 03:12:38 srv-web01 sshd[2629]: Failed password for root from 203.0.113.50 port 59897 ssh2
+Oct 12 03:12:40 srv-web01 sshd[2634]: Failed password for root from 203.0.113.50 port 36133 ssh2
+Oct 12 03:12:42 srv-web01 sshd[2652]: Failed password for root from 203.0.113.50 port 61070 ssh2
+Oct 12 03:12:44 srv-web01 sshd[2657]: Failed password for root from 203.0.113.50 port 33976 ssh2
+Oct 12 03:12:46 srv-web01 sshd[2677]: Failed password for root from 203.0.113.50 port 59205 ssh2
+Oct 12 03:12:48 srv-web01 sshd[2696]: Failed password for root from 203.0.113.50 port 55283 ssh2
+Oct 12 03:12:50 srv-web01 sshd[2719]: Failed password for root from 203.0.113.50 port 31478 ssh2
+Oct 12 03:12:52 srv-web01 sshd[2749]: Failed password for root from 203.0.113.50 port 53295 ssh2
+Oct 12 03:12:54 srv-web01 sshd[2760]: Failed password for root from 203.0.113.50 port 37673 ssh2
+Oct 12 03:12:56 srv-web01 sshd[2792]: Failed password for root from 203.0.113.50 port 33863 ssh2
+Oct 12 03:12:58 srv-web01 sshd[2806]: Failed password for root from 203.0.113.50 port 48837 ssh2
+Oct 12 03:13:00 srv-web01 sshd[2815]: Failed password for root from 203.0.113.50 port 46227 ssh2
+Oct 12 03:13:02 srv-web01 sshd[2841]: Failed password for root from 203.0.113.50 port 55621 ssh2
+Oct 12 03:13:04 srv-web01 sshd[2873]: Failed password for root from 203.0.113.50 port 35280 ssh2
+Oct 12 03:13:06 srv-web01 sshd[2884]: Failed password for root from 203.0.113.50 port 59437 ssh2
+Oct 12 03:13:08 srv-web01 sshd[2910]: Failed password for root from 203.0.113.50 port 48208 ssh2
+Oct 12 03:13:10 srv-web01 sshd[2919]: Failed password for root from 203.0.113.50 port 58214 ssh2
+Oct 12 03:13:12 srv-web01 sshd[2955]: Failed password for root from 203.0.113.50 port 48246 ssh2
+Oct 12 03:13:14 srv-web01 sshd[2982]: Failed password for root from 203.0.113.50 port 53512 ssh2
+Oct 12 03:13:16 srv-web01 sshd[3007]: Failed password for root from 203.0.113.50 port 45122 ssh2
+Oct 12 03:13:18 srv-web01 sshd[3017]: Failed password for root from 203.0.113.50 port 35438 ssh2
+Oct 12 03:13:20 srv-web01 sshd[3029]: Failed password for root from 203.0.113.50 port 39915 ssh2
+Oct 12 03:13:22 srv-web01 sshd[3044]: Failed password for root from 203.0.113.50 port 45291 ssh2
+Oct 12 03:13:24 srv-web01 sshd[3045]: Failed password for root from 203.0.113.50 port 61782 ssh2
+Oct 12 03:13:26 srv-web01 sshd[3083]: Failed password for root from 203.0.113.50 port 41950 ssh2
+Oct 12 03:13:28 srv-web01 sshd[3100]: Failed password for root from 203.0.113.50 port 48476 ssh2
+Oct 12 03:13:40 srv-web01 sshd[4001]: Connection closed by authenticating user root 203.0.113.50 port 51111 [preauth]
+Oct 12 03:17:01 srv-web01 CRON[7389]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 03:17:02 srv-web01 CRON[3771]: pam_unix(cron:session): session closed for user root
+Oct 12 04:17:01 srv-web01 CRON[5995]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 04:17:02 srv-web01 CRON[7774]: pam_unix(cron:session): session closed for user root
+Oct 12 04:40:00 srv-web01 sshd[3110]: Failed password for invalid user admin from 198.51.100.23 port 57456 ssh2
+Oct 12 04:40:07 srv-web01 sshd[3150]: Failed password for invalid user test from 198.51.100.23 port 50880 ssh2
+Oct 12 04:40:14 srv-web01 sshd[3159]: Failed password for invalid user test from 198.51.100.23 port 63783 ssh2
+Oct 12 04:40:21 srv-web01 sshd[3189]: Failed password for invalid user oracle from 198.51.100.23 port 55714 ssh2
+Oct 12 04:40:28 srv-web01 sshd[3215]: Failed password for invalid user ubuntu from 198.51.100.23 port 55829 ssh2
+Oct 12 04:40:35 srv-web01 sshd[3222]: Failed password for invalid user ubuntu from 198.51.100.23 port 61557 ssh2
+Oct 12 04:40:42 srv-web01 sshd[3226]: Failed password for invalid user postgres from 198.51.100.23 port 42491 ssh2
+Oct 12 04:40:49 srv-web01 sshd[3231]: Failed password for invalid user postgres from 198.51.100.23 port 43681 ssh2
+Oct 12 04:40:56 srv-web01 sshd[3242]: Failed password for invalid user git from 198.51.100.23 port 37204 ssh2
+Oct 12 04:41:03 srv-web01 sshd[3264]: Failed password for invalid user git from 198.51.100.23 port 33445 ssh2
+Oct 12 04:41:10 srv-web01 sshd[3265]: Failed password for invalid user user from 198.51.100.23 port 39913 ssh2
+Oct 12 04:41:17 srv-web01 sshd[3289]: Failed password for invalid user deploy2 from 198.51.100.23 port 31671 ssh2
+Oct 12 05:17:01 srv-web01 CRON[3475]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 05:17:02 srv-web01 CRON[7156]: pam_unix(cron:session): session closed for user root
+Oct 12 05:55:00 srv-web01 sshd[3294]: Failed password for deploy from 192.0.2.77 port 43628 ssh2
+Oct 12 05:55:04 srv-web01 sshd[3334]: Failed password for deploy from 192.0.2.77 port 54656 ssh2
+Oct 12 05:55:08 srv-web01 sshd[3344]: Failed password for deploy from 192.0.2.77 port 46531 ssh2
+Oct 12 05:55:12 srv-web01 sshd[3367]: Failed password for deploy from 192.0.2.77 port 53865 ssh2
+Oct 12 05:55:16 srv-web01 sshd[3398]: Failed password for deploy from 192.0.2.77 port 38050 ssh2
+Oct 12 05:55:20 srv-web01 sshd[3406]: Failed password for deploy from 192.0.2.77 port 61986 ssh2
+Oct 12 05:55:30 srv-web01 sshd[3436]: Accepted password for deploy from 192.0.2.77 port 61483 ssh2
+Oct 12 05:56:10 srv-web01 sshd[4002]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.77  user=deploy
+Oct 12 06:17:01 srv-web01 CRON[4758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 06:17:02 srv-web01 CRON[3307]: pam_unix(cron:session): session closed for user root
+Oct 12 07:17:01 srv-web01 CRON[3704]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 07:17:02 srv-web01 CRON[6552]: pam_unix(cron:session): session closed for user root
+Oct 12 08:15:03 srv-web01 sshd[2007]: Accepted publickey for ana from 10.0.0.5 port 42312 ssh2
+Oct 12 08:17:01 srv-web01 CRON[6425]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 08:17:02 srv-web01 CRON[3572]: pam_unix(cron:session): session closed for user root
+Oct 12 09:02:10 srv-web01 sshd[2031]: Failed password for luis from 10.0.0.6 port 36385 ssh2
+Oct 12 09:02:16 srv-web01 sshd[2067]: Accepted password for luis from 10.0.0.6 port 34114 ssh2
+Oct 12 09:10:00 srv-web01 sudo:    ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 12 09:17:01 srv-web01 CRON[4971]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 09:17:02 srv-web01 CRON[3743]: pam_unix(cron:session): session closed for user root
+Oct 12 10:17:01 srv-web01 CRON[7514]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 10:17:02 srv-web01 CRON[6477]: pam_unix(cron:session): session closed for user root
+Oct 12 11:17:01 srv-web01 CRON[3484]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 11:17:02 srv-web01 CRON[7632]: pam_unix(cron:session): session closed for user root
+Oct 12 11:40:00 srv-web01 sshd[2104]: Accepted publickey for ana from 10.0.0.5 port 33906 ssh2
+Oct 12 12:17:01 srv-web01 CRON[4014]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 12:17:02 srv-web01 CRON[4828]: pam_unix(cron:session): session closed for user root
+Oct 12 13:17:01 srv-web01 CRON[8166]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 13:17:02 srv-web01 CRON[8139]: pam_unix(cron:session): session closed for user root
+Oct 12 14:00:00 srv-web01 sshd[3467]: Failed password for root from 203.0.113.200 port 50437 ssh2
+Oct 12 14:04:00 srv-web01 sshd[3473]: Failed password for root from 203.0.113.200 port 39444 ssh2
+Oct 12 14:08:00 srv-web01 sshd[3480]: Failed password for root from 203.0.113.200 port 52454 ssh2
+Oct 12 14:12:00 srv-web01 sshd[3497]: Failed password for root from 203.0.113.200 port 61366 ssh2
+Oct 12 14:16:00 srv-web01 sshd[3508]: Failed password for root from 203.0.113.200 port 63838 ssh2
+Oct 12 14:17:01 srv-web01 CRON[7775]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 14:17:02 srv-web01 CRON[3506]: pam_unix(cron:session): session closed for user root
+Oct 12 14:20:00 srv-web01 sshd[3510]: Failed password for root from 203.0.113.200 port 43448 ssh2
+Oct 12 14:24:00 srv-web01 sshd[3544]: Failed password for root from 203.0.113.200 port 53707 ssh2
+Oct 12 14:28:00 srv-web01 sshd[3554]: Failed password for root from 203.0.113.200 port 31772 ssh2
+Oct 12 14:32:00 srv-web01 sshd[3588]: Failed password for root from 203.0.113.200 port 49535 ssh2
+Oct 12 14:36:00 srv-web01 sshd[3594]: Failed password for root from 203.0.113.200 port 47112 ssh2
+Oct 12 14:40:00 srv-web01 sshd[3628]: Failed password for root from 203.0.113.200 port 54032 ssh2
+Oct 12 14:44:00 srv-web01 sshd[3639]: Failed password for root from 203.0.113.200 port 53310 ssh2
+Oct 12 14:48:00 srv-web01 sshd[3654]: Failed password for root from 203.0.113.200 port 64903 ssh2
+Oct 12 14:52:00 srv-web01 sshd[3689]: Failed password for root from 203.0.113.200 port 62944 ssh2
+Oct 12 14:56:00 srv-web01 sshd[3711]: Failed password for root from 203.0.113.200 port 44617 ssh2
+Oct 12 15:00:00 srv-web01 sshd[3751]: Failed password for root from 203.0.113.200 port 42789 ssh2
+Oct 12 15:04:00 srv-web01 sshd[3767]: Failed password for root from 203.0.113.200 port 56259 ssh2
+Oct 12 15:08:00 srv-web01 sshd[3782]: Failed password for root from 203.0.113.200 port 43101 ssh2
+Oct 12 15:12:00 srv-web01 sshd[3816]: Failed password for root from 203.0.113.200 port 62294 ssh2
+Oct 12 15:16:00 srv-web01 sshd[3839]: Failed password for root from 203.0.113.200 port 31899 ssh2
+Oct 12 15:17:01 srv-web01 CRON[7727]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 15:17:02 srv-web01 CRON[7796]: pam_unix(cron:session): session closed for user root
+Oct 12 15:20:00 srv-web01 sshd[3841]: Failed password for root from 203.0.113.200 port 48311 ssh2
+Oct 12 15:24:00 srv-web01 sshd[3872]: Failed password for root from 203.0.113.200 port 46985 ssh2
+Oct 12 15:28:00 srv-web01 sshd[3885]: Failed password for root from 203.0.113.200 port 52562 ssh2
+Oct 12 15:32:00 srv-web01 sshd[3914]: Failed password for root from 203.0.113.200 port 52906 ssh2
+Oct 12 15:36:00 srv-web01 sshd[3938]: Failed password for root from 203.0.113.200 port 35278 ssh2
+Oct 12 15:40:00 srv-web01 sshd[3953]: Failed password for root from 203.0.113.200 port 36694 ssh2
+Oct 12 15:44:00 srv-web01 sshd[3968]: Failed password for root from 203.0.113.200 port 60807 ssh2
+Oct 12 15:48:00 srv-web01 sshd[3981]: Failed password for root from 203.0.113.200 port 52133 ssh2
+Oct 12 15:52:00 srv-web01 sshd[3995]: Failed password for root from 203.0.113.200 port 61631 ssh2
+Oct 12 15:56:00 srv-web01 sshd[4035]: Failed password for root from 203.0.113.200 port 30125 ssh2
+Oct 12 16:17:01 srv-web01 CRON[6249]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 16:17:02 srv-web01 CRON[3406]: pam_unix(cron:session): session closed for user root
+Oct 12 16:30:00 srv-web01 sshd[4066]: Failed password for invalid user x from 8.8.8.8 port 22 from 203.0.113.99 port 52544 ssh2
+Oct 12 16:30:10 srv-web01 sshd[4072]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 37858 ssh2
+Oct 12 16:30:13 srv-web01 sshd[4097]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 43062 ssh2
+Oct 12 16:30:16 srv-web01 sshd[4128]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 41699 ssh2
+Oct 12 16:30:19 srv-web01 sshd[4156]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 51791 ssh2
+Oct 12 16:30:22 srv-web01 sshd[4162]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 55941 ssh2
+Oct 12 16:30:25 srv-web01 sshd[4192]: Failed password for invalid user [2J[31mroot[0m from 203.0.113.99 port 56305 ssh2
+Oct 12 17:17:01 srv-web01 CRON[4811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 17:17:02 srv-web01 CRON[3381]: pam_unix(cron:session): session closed for user root
+Oct 12 18:05:00 srv-web01 sshd[4198]: Failed password for root from 2001:db8:abcd::17 port 40410 ssh2
+Oct 12 18:05:03 srv-web01 sshd[4209]: Failed password for root from 2001:db8:abcd::17 port 38325 ssh2
+Oct 12 18:05:06 srv-web01 sshd[4211]: Failed password for root from 2001:db8:abcd::17 port 39905 ssh2
+Oct 12 18:05:09 srv-web01 sshd[4249]: Failed password for root from 2001:db8:abcd::17 port 60497 ssh2
+Oct 12 18:05:12 srv-web01 sshd[4259]: Failed password for root from 2001:db8:abcd::17 port 61087 ssh2
+Oct 12 18:05:15 srv-web01 sshd[4282]: Failed password for root from 2001:db8:abcd::17 port 40217 ssh2
+Oct 12 18:05:18 srv-web01 sshd[4318]: Failed password for root from 2001:db8:abcd::17 port 38584 ssh2
+Oct 12 18:17:01 srv-web01 CRON[7560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 18:17:02 srv-web01 CRON[4090]: pam_unix(cron:session): session closed for user root
+Oct 12 19:17:01 srv-web01 CRON[5372]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 19:17:02 srv-web01 CRON[6433]: pam_unix(cron:session): session closed for user root
+Oct 12 20:17:01 srv-web01 CRON[4181]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 20:17:02 srv-web01 CRON[7429]: pam_unix(cron:session): session closed for user root
+Oct 12 21:17:01 srv-web01 CRON[3964]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 21:17:02 srv-web01 CRON[7676]: pam_unix(cron:session): session closed for user root
+Oct 12 22:17:01 srv-web01 CRON[5527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 22:17:02 srv-web01 CRON[7589]: pam_unix(cron:session): session closed for user root
+Oct 12 23:17:01 srv-web01 CRON[8586]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 23:17:02 srv-web01 CRON[4480]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,12 @@
+admin
+test
+oracle
+ubuntu
+postgres
+git
+user
+pi
+ftp
+www
+mysql
+jenkins

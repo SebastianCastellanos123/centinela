@@ -1,0 +1,11 @@
+# Logs reales: pueden contener IPs y usuarios de personas. No los subas.
+*.log
+!testdata/*.log
+*.log.gz
+
+bin/
+*.exe
+coverage.out
+.vscode/
+.idea/
+.DS_Store
