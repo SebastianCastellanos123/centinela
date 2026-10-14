@@ -20,7 +20,7 @@ jobs:
       - run: go test ./... -race -count=1 -cover
       - name: Vulnerabilidades
         run: go run golang.org/x/vuln/cmd/govulncheck@latest ./...
-      - name: Analizar el log de ejemplo (debe terminar con código 2: hay alertas críticas)
+          - name: Analizar el log de ejemplo (debe salir con código 2 porque hay alertas críticas)
         run: |
           go build -o centinela ./cmd/centinela
           set +e
